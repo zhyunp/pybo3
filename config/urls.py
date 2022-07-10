@@ -10,3 +10,6 @@ urlpatterns = [
     path('', base_views.index, name='index'),    #'/' 에 해당되는 path
 
 ]
+
+
+haldler404 = 'common.views.page_not_found'
